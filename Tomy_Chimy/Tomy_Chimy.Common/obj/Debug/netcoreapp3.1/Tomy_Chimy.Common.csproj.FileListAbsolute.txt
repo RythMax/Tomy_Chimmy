@@ -1,0 +1,10 @@
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\bin\Debug\netcoreapp3.1\Tomy_Chimy.Common.deps.json
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\bin\Debug\netcoreapp3.1\Tomy_Chimy.Common.dll
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\bin\Debug\netcoreapp3.1\Tomy_Chimy.Common.pdb
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.csproj.AssemblyReference.cache
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.AssemblyInfoInputs.cache
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.AssemblyInfo.cs
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.csproj.CoreCompileInputs.cache
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.dll
+C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.Common\obj\Debug\netcoreapp3.1\Tomy_Chimy.Common.pdb

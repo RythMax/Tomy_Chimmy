@@ -6,11 +6,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Data\Migrations\20220630192205_Database_root2.cs" />
+    <Compile Remove="Data\Migrations\20220630192205_Database_root2.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220630192530_Database_root2.cs" />
+    <Compile Remove="Data\Migrations\20220630192530_Database_root2.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220630192732_Database_root2.cs" />
+    <Compile Remove="Data\Migrations\20220630192732_Database_root2.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220630193155_Database_root2.3.cs" />
+    <Compile Remove="Data\Migrations\20220630193155_Database_root2.3.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220630194107_Database_Root2.4.cs" />
+    <Compile Remove="Data\Migrations\20220630194107_Database_Root2.4.Designer.cs" />
+    <Compile Remove="Migrations\20220630195140_Database_Tomy1.cs" />
+    <Compile Remove="Migrations\20220630195140_Database_Tomy1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.25" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.25" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.25" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
 </Project>

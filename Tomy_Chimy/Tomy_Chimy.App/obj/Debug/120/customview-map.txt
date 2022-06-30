@@ -6,12 +6,15 @@ androidx.coordinatorlayout.widget.CoordinatorLayout;obj\Debug\120\res\layout\app
 androidx.drawerlayout.widget.DrawerLayout;obj\Debug\120\res\layout\activity_main.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+cache-path;C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.App\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\120\res\values\colors.xml
 color;obj\Debug\120\res\values\ic_launcher_background.xml
 com.google.android.material.appbar.AppBarLayout;obj\Debug\120\res\layout\app_bar_main.xml
 com.google.android.material.floatingactionbutton.FloatingActionButton;obj\Debug\120\res\layout\app_bar_main.xml
 com.google.android.material.navigation.NavigationView;obj\Debug\120\res\layout\activity_main.xml
 dimen;obj\Debug\120\res\values\dimens.xml
+external-cache-path;C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.App\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.App\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 gradient;obj\Debug\120\res\drawable\side_nav_bar.xml
@@ -32,6 +35,7 @@ path;obj\Debug\120\res\drawable-v21\ic_menu_manage.xml
 path;obj\Debug\120\res\drawable-v21\ic_menu_send.xml
 path;obj\Debug\120\res\drawable-v21\ic_menu_share.xml
 path;obj\Debug\120\res\drawable-v21\ic_menu_slideshow.xml
+paths;C:\ProyectoDRA\Tomy_Chimy\Tomy_Chimy.App\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\120\res\layout\content_main.xml
 resources;obj\Debug\120\res\values\colors.xml
 resources;obj\Debug\120\res\values\dimens.xml
