@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Tomy_Chimy.Web.Data;
-using Tomy_Chimy.Web.Data.Entities;
+using Tomy_Chimy.Web.Models;
 
 namespace Tomy_Chimy.Web.Controllers
 {

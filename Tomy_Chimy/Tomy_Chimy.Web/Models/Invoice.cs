@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tomy_Chimy.Web.Data.Entities
+namespace Tomy_Chimy.Web.Models
 {
     public class Invoice
     {
@@ -28,7 +28,7 @@ namespace Tomy_Chimy.Web.Data.Entities
         public DateTime FechaFactura { get; set; }
 
         [Display(Name = "Subtotal")]
-        [Range(0, 999999999999999999.99, ErrorMessage ="Máximo 18 dígitos")]
+        [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal (18, 2)")]
         public decimal Subtotal { get; set; }

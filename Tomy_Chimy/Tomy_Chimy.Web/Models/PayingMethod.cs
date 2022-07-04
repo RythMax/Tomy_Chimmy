@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tomy_Chimy.Web.Data.Entities
+namespace Tomy_Chimy.Web.Models
 {
     public class PayingMethod
     {

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Tomy_Chimy.Web.Data.Entities;
+using Tomy_Chimy.Web.Models;
 
 namespace Tomy_Chimy.Web.Data
 {

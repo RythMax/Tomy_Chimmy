@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tomy_Chimy.Web.Data.Entities
+namespace Tomy_Chimy.Web.Models
 {
     public class FoodType
     {
@@ -12,6 +12,6 @@ namespace Tomy_Chimy.Web.Data.Entities
 
         [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
         [MaxLength(15, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres")]
-        public string Detalle { get; set;}
+        public string Detalle { get; set; }
     }
 }

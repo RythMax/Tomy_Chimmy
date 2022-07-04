@@ -1,33 +1,27 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tomy_Chimy.Web.Data.Entities
+namespace Tomy_Chimy.Web.Models
 {
-    public class Queue
+    public class Order
     {
         [Key]
-        public int Pedido_ID { get; set; }
+        public int ID_Orden { get; set; }
 
-        [Display(Name = "Fecha del pedido")]
+        /*public string Descripción { get; set; }
+        public string Cantidad { get; set; }*/
+
+        [Display(Name = "Fecha de orden")]
         [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
         [DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd H:mm tt}", ApplyFormatInEditMode = true)]
-        public DateTime DatePedido { get; set; }
+        public DateTime DateOrden { get; set; }
 
         /*[DataType(DataType.DateTime)]
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd H:mm tt}")]
-        public DateTime DatePedidoLocal => DateTime.Now;*/
-
-        [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
-        [Display(Name = "Forma de pago")]
-        [ForeignKey("PayingMethod")]
-        public int Method_Id { get; set; }
-        public PayingMethod PayingMethod { get; set; }
-        
-        [DataType(DataType.MultilineText)]
-        [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres")]
-        public string Anotaciones { get; set; }
+        public DateTime DateLocal => DateTime.Now;*/
 
         [Display(Name = "Subtotal")]
         [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
@@ -39,7 +33,7 @@ namespace Tomy_Chimy.Web.Data.Entities
         [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal (18, 2)")]
-        public decimal Valor_Impuesto { get; set; }
+        public decimal ValorImpuesto { get; set; }
 
         [Display(Name = "Total")]
         [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
@@ -49,9 +43,9 @@ namespace Tomy_Chimy.Web.Data.Entities
 
 
         [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
-        [Display (Name = "Estado del pedido")]
-        [ForeignKey("Status")]
-        public int Status_ID { get; set; }
-        public Status Status { get; set; }
+        [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres")]
+        [DataType(DataType.MultilineText)]
+        public string Anotaciones { get; set; }
+
     }
 }

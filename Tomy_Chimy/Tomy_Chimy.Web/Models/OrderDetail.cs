@@ -1,41 +1,42 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tomy_Chimy.Web.Data.Entities
+namespace Tomy_Chimy.Web.Models
 {
-    public class QueueDetail
+    public class OrderDetail
     {
         [Key]
-        public int QueueDetail_ID{ get; set; }
+        public int OrderDetailID { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
-        [Display(Name = "Artículos")]
+        [Display(Name = "Artículo")]
         [ForeignKey("Food")]
         public int ID_Comidas { get; set; }
         public Food Food { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
-        [Display(Name = "Cantidad")]
+        [Display(Name = "Cantidad de Artículos")]
+        [DataType(DataType.Currency)]
         [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
-        [Column(TypeName = "decimal (18,2)")]
-        public decimal Cantidad { get; set; }
+        [Column(TypeName = "decimal (18, 2)")]
+        public decimal CantidadDeArticulos { get; set; }
 
-        [Display(Name = "Valor Unitario")]
-        [Range (0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
+        [Display(Name = "Valor unitario")]
+        [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal (18, 2)")]
         public decimal ValorUnitario { get; set; }
 
-        [Display(Name = "Valor Total")]
+        [Display(Name = "Valor total")]
         [Range(0, 999999999999999999.99, ErrorMessage = "Máximo 18 dígitos")]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal (18, 2)")]
         public decimal ValorTotal { get; set; }
 
         [Required(ErrorMessage = "El campo {0} es un campo obligatorio")]
-        [Display(Name = "Pedido")]
-        [ForeignKey("Queue")]
-        public int Pedido_ID { get; set; }
-        public Queue Queue { get; set; }
+        [Display(Name = "Orden")]
+        [ForeignKey("Order")]
+        public int ID_Orden { get; set; }
+        public Order Order { get; set; }
     }
 }
